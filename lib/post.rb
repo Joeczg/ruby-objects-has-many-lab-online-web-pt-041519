@@ -10,7 +10,7 @@ class Post
   end
   
   def author_name
-   
+   if self.all == 0
      self.author.name
   
 end
