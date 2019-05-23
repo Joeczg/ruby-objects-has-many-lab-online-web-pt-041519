@@ -13,6 +13,7 @@ class Post
     if self.author.name != nil 
       self.author.name
     else
+      nil 
   end
 end
 
