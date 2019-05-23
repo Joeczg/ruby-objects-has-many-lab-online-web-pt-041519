@@ -11,9 +11,9 @@ class Post
   
   def author_name
    if Author.posts.size> 0
-     self.author.name
+     
    else
-    return nil 
+    return nil self.author.name
    end
      
 end
