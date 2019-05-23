@@ -13,7 +13,7 @@ class Post
    if @@all.size> 0
      self.author.name
    else
-     nil 
+    
    end
      
 end
