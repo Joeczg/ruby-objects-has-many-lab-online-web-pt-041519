@@ -10,10 +10,10 @@ class Post
   end
   
   def author_name
-   if Author.posts.size> 0
-     
+   if @author == nil 
+     return nil
    else
-    return nil self.author.name
+     self.author.name
    end
      
 end
