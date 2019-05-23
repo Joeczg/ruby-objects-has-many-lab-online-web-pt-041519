@@ -10,7 +10,7 @@ class Post
   end
   
   def author_name
-   if self.all.size > 0
+   if @@all.size> 0
      self.author.name
    else
      nil 
